@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Papermashup.com | Sliding Div</title>
+<style>
+
+body{ }
+.slidingDiv {
+    padding: 60px;
+    width: 40%;
+    background-color: blue
+    }
+.show_hide {}
+</style>
+</head>
+<body>
+ <a href="#" class="show_hide">Show/hide</a>
+    <br>
+    <div class="slidingDiv">Fill this space with really interesting content. 
+        <a href="#" class="show_hide">hide</a>
+    </div>
+<script type="text/javascript" src="/Experiment/Sample/jquery/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    
+	$(".slidingDiv").hide();
+	$(".show_hide").show();
+    
+    $('.show_hide').click(function(){
+	$(".slidingDiv").slideToggle();
+        
+    
+	});
+
+});
+
+</script>
+</body>
+</html>
