@@ -11,7 +11,7 @@ html{
 body{ 
     margin:0;
     padding: 0;
-    background: url(img/path777%20copy.png);
+    background: url(/img/path777%20copy.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -142,7 +142,7 @@ ul.topnav.responsive li a {
 
 
 .homeSection{
-   background: url(img/home%201.jpg);
+   background: url(/img/home%201.jpg);
     background-attachment: fixed;
     background-position:top;
     background-size: cover;
@@ -391,7 +391,7 @@ padding: inherit;
 }
 
 .portfolio{
-    background: url(img/Portfolio.jpg);
+    background: url(/img/Portfolio.jpg);
     background-attachment;
     background-position:top;
     background-size: cover;
@@ -445,7 +445,7 @@ padding: inherit;
     margin: 0px 0px 0px 0px;
 }
 .aboutSection{
-    background: url(img/path777%20copy.png);
+    background: url(/img/path777%20copy.png);
     background-color: black ;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -516,7 +516,7 @@ div.aboutSection.backgroundShift{
 }
 
 .contactSection{
-    background: url(img/contact.jpg);
+    background: url(/img/contact.jpg);
     background-attachment: fixed;
     background-position:center;
     background-size: cover;
@@ -660,14 +660,14 @@ input[type="submit"]:active{
 
 
 input:required:invalid, input:focus:invalid{
-    background-image: url(data:img/Stop-icon.png);
+    background-image: url(data:/img/Stop-icon.png);
     background-position: right top;
     background-repeat: no-repeat;
     -moz-box-shadow:none;
 }
 
 input:required:valid{
-    background-image: url(img/Accept-icon.png);
+    background-image: url(/img/Accept-icon.png);
     background-position: right top;
     background-repeat: no-repeat;
 }
